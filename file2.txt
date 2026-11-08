@@ -1,0 +1,17 @@
+git init 
+git add .
+git commit -m "first change" 
+git status // give the branch
+git log //check entire history
+git config --global user.name "" email "" // my git profile
+git config --global --list // show user credentials
+git remote add origin _url_
+git push origin master
+git branch -m "main" // switch to existing branch
+git checkout/switch "branch name" //create brach and change control
+git pull origin "branch name"
+git merge "source branch name"
+git tag "tag name"
+git tag -a "tag name" -m "message"
+git push origin tag name
+git merge <source_branch>

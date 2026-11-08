@@ -1,0 +1,14 @@
+git init 
+git add .
+git commit -m "first change" 
+git status
+git log 
+git config --global --list
+git config --global user.name "exam302ec" 
+git config --global --user.email "exam302ec.27ec@licet.ac.in"
+git config --global --unset user.name "username other"//to manually unset the previous user credentials
+git remote add origin https://github.com/exam302ec/git_demo.git
+git push -u origin main
+git branch
+git branch -m "main"
+git switch -c "feature"
